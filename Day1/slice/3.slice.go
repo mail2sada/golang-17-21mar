@@ -1,0 +1,31 @@
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Demo: Slice")
+
+	var slice = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+	fmt.Println(len(slice))
+	fmt.Println(cap(slice))
+	fmt.Println(slice)
+
+	slice = append(slice, 11)
+	fmt.Println(len(slice))
+	fmt.Println(cap(slice))
+	fmt.Println(slice)
+
+	slice = append(slice, 12)
+	fmt.Println(len(slice))
+	fmt.Println(cap(slice))
+	fmt.Println(slice)
+
+	for i := 13; i <= 21; i++ {
+		slice = append(slice, i)
+	}
+
+	fmt.Println(len(slice))
+	fmt.Println(cap(slice))
+	fmt.Println(slice)
+}
