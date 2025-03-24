@@ -11,5 +11,5 @@ func main() {
 
 	var b int
 
-	fmt.Println("Value of b is", b) //
+	fmt.Println("Value of b is", b) // 0
 }

@@ -26,6 +26,8 @@ func main() {
 
 	a := flag.String("arg", "", "converts this value to a specified case in -case parameter")
 
+	flag.StringVar()
+
 	flag.Parse()
 
 	switch *c {
@@ -38,5 +40,4 @@ func main() {
 	default:
 		flag.Usage()
 	}
-
 }

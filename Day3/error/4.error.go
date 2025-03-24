@@ -40,7 +40,6 @@ func main() {
 		case 20:
 			fmt.Println("-ve index...")
 		}
-
 	} else {
 		fmt.Println(ans)
 	}

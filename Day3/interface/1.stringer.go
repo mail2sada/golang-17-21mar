@@ -8,7 +8,6 @@ type Student struct {
 }
 
 func (a Student) String() string {
-
 	return fmt.Sprintln("RollNo:", a.RollNo, "\nClass:", a.Class, "\nDivision:", a.Division)
 }
 
@@ -18,4 +17,5 @@ func main() {
 	s := Student{RollNo: 1, Class: "10", Division: "B"}
 
 	fmt.Println(s)
+	
 }

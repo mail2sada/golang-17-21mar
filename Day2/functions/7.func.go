@@ -7,7 +7,7 @@ func main() {
 
 	a := func(a string) string {
 		return "Hello " + a
-	}("Anand")
+	}
 
 	fmt.Println(a)
 

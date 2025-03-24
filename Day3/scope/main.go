@@ -33,5 +33,4 @@ func main() {
 	if weekday := time.Now().Weekday(); weekday == time.Wednesday {
 		fmt.Println(weekday)
 	}
-
 }

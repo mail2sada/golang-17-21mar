@@ -9,7 +9,6 @@ func main() {
 	a, b := 10, 20
 
 	if a < b {
-
 		defer fmt.Println("a is small")
 	}
 

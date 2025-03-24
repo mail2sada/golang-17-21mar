@@ -44,4 +44,6 @@ func main() {
 
 	fmt.Println(std)
 
+	std.PrintMarks()
+
 }

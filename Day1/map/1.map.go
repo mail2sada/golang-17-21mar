@@ -21,7 +21,6 @@ func main() {
 		fmt.Println("Value not available...")
 	} else {
 		fmt.Println(v)
-
 	}
 
 }

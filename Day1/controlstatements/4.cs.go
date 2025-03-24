@@ -14,4 +14,8 @@ func main() {
 	} else {
 		fmt.Println("c is biggest")
 	}
+
+	if (a>b && a >c) && (c < a && c <b) {
+
+	}
 }

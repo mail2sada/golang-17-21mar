@@ -1,0 +1,18 @@
+/*
+
+/ root /service routes
+/user 
+/product
+/cart
+/billing
+/payment
+
+POST
+GET
+PUT
+DELETE
+UPDATE
+PATCH
+*/
+
+  &{GET /favicon.ico HTTP/1.1 1 1 map[Accept:[image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8] Accept-Encoding:[gzip, deflate, br, zstd] Accept-Language:[en-US,en;q=0.9,es;q=0.8] Connection:[keep-alive] Referer:[http://127.0.0.1:3456/] Sec-Ch-Ua:["Chromium";v="134", "Not:A-Brand";v="24", "Google Chrome";v="134"] Sec-Ch-Ua-Mobile:[?0] Sec-Ch-Ua-Platform:["macOS"] Sec-Fetch-Dest:[image] Sec-Fetch-Mode:[no-cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36]] {} <nil> 0 [] false 127.0.0.1:3456 map[] map[] <nil> map[] 127.0.0.1:54276 /favicon.ico <nil> <nil> <nil> / 0x14000032050 0x14000090240 [] map[]}

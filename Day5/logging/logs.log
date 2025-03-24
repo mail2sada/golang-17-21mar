@@ -1,0 +1,4 @@
+2025/03/21 logs.go:18: Inside main...
+2025/03/21 logs.go:20: Exiting main
+[DEBUG]2025/03/21 logs.go:23: Printing debug log..
+[Info]2025/03/21 logs.go:25: Printing Info log..
